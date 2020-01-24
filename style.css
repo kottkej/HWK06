@@ -1,0 +1,61 @@
+  .headerColor {
+      background-color: black;
+      color: cornsilk;
+  }
+  
+  body {
+      font-family: Arial;
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+  }
+  
+  form.example button {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+  }
+  
+  form.example button:hover {
+      background: #0b7dda;
+  }
+  
+  form.example::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  
+  .box {
+      display: inline-flexbox
+  }
+  
+  .card {
+      background-color: #0b7dda;
+      margin: 0 10px;
+  }
+  
+  .weather-content__temp {
+      background-color: antiquewhite;
+  }
+  
+  ol {
+      list-style-type: none;
+      padding-inline-start: 0px;
+  }
